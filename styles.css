@@ -1,6 +1,82 @@
-body {
+h2 h3 h4 .try-link {
+
+  color: hsl(192, 100%, 9%);
+
+}
+
+p {
+
+  color: hsl(208, 11%, 55%);
+
+}
+
+.container {
+
     display: grid;
+
+   grid-template-rowss: repeat(6, auto);
+
     }
+
+.flex-container {
+
+  display: flex;
+
+  flex-flow: row nowrap;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+img {
+
+  object-fit: contain;
+
+}
+
+header {
+
+  background: url("/images/bg-hero-desktop.svg.svg");
+
+  background-color:  #ebfbff;
+
+  background-size: cover;
+
+}
+
+#header-container-one {
+
+  padding: 20px 37px 70px 30px;
+
+}
+
+.logo #header-container-one {
+
+  width: 7%;
+
+}
+
+.try-link {
+
+  width: 200px;
+
+  height: 60px;
+
+  border-radius: 70px;
+
+  border: white solid;
+
+  background-color: white;
+
+  font-weight: bolder;
+
+}
+
+
+
+   
 
 
 
