@@ -86,7 +86,7 @@ img {
 
 header {
 
-  background: url("/images/bg-hero-desktop.svg.svg");
+  background: url("./images/bg-hero-desktop.svg.svg");
 
   background-color:  rgb(235, 251, 255);
 
