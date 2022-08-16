@@ -1,12 +1,60 @@
-h2 h3 h4 .try-link {
+
+
+h2, h3, h4, .call-to-action-one {
 
   color: hsl(192, 100%, 9%);
+
+}
+
+body :not(h2, h3, h4) {
+
+  font-family: "Open Sans", sans-serif;
+
+}
+
+body :not(small)
+
+  font-size: 13px;
+
+}
+
+h2, h3, h4 {
+
+  font-family: "Poppins", sans-serif;
+
+  font-weight: bolder !important;
+
+}
+
+h2 {
+
+  font-size: 32px;
+
+}
+
+h3, h4 {
+
+  font-size: 20px;
+
+}
+
+.call-to-action-one, .call-to-action-two {
+
+  font-weight: 700;
 
 }
 
 p {
 
   color: hsl(208, 11%, 55%);
+
+}
+
+a {
+
+  color: white;
+
+  text-decoration: none;
 
 }
 
@@ -40,7 +88,7 @@ header {
 
   background: url("/images/bg-hero-desktop.svg.svg");
 
-  background-color:  #ebfbff;
+  background-color:  rgb(235, 251, 255);
 
   background-size: cover;
 
@@ -48,17 +96,17 @@ header {
 
 #header-container-one {
 
-  padding: 20px 37px 70px 30px;
+  padding: 20px 37px 20px 30px;
 
 }
 
-.logo #header-container-one {
+#header-container-one .logo {
 
-  width: 7%;
+  width: 17%;
 
 }
 
-.try-link {
+.call-to-action-one {
 
   width: 200px;
 
@@ -70,15 +118,315 @@ header {
 
   background-color: white;
 
-  font-weight: bolder;
+}
+
+#mockups-image {
+
+  width: 100%;
 
 }
 
+#header-container-two {
 
+  padding: 60px 65px ;
 
-   
+}
 
+.call-to-action-two {
 
+  border-radius: 25px;
 
+  width: 230px;
 
+  height: 47px;
+
+  background-color: hsl(322, 100%, 66%);
+
+  color: whitesmoke;
+
+  border-style: none;
+
+}
+
+.main-section {
+
+  margin: 80px 70px 20px 70px;
+
+ 
+
+}
+
+.section-image {
+
+  width: 40%;
+
+}
+
+#grow-together-section, #flowing-conversation-section, #your-users-section, #start-section {
+
+  border: 2px none hsl(251, 5%, 88%);
+
+  border-radius: 5%;
+
+  box-shadow: 2px 4px 5px;
+
+  margin: 25px auto;
+
+  padding: 38px 19px;
+
+}
+
+#start-section {
+
+  background-color: white;
+
+  position: relative;
+
+  top: 120px;
+
+  display: flex;
+
+  flex-flow: column wrap;
+
+  width: 60%;
+
+  z-index: 2;
+
+}
+
+footer {
+
+  position: relative;
+
+  background-color: hsl(192, 100%, 9%); 
+
+  color: white;
+
+  padding: 90px 12px 15px 60px;
+
+  height: 250px;
+
+  width: auto;
+
+  z-index: 1;
+
+  
+
+}
+
+#footer-logo, .socials {
+
+  filter: invert(100%) sepia(15%) saturate(29%) hue-rotate(235deg) brightness(111%) contrast(92%);
+
+}
+
+#footer-logo {
+
+  display: block;
+
+  margin-bottom: 25px;
+
+  width: 37%;
+
+}
+
+.info {
+
+  width: 24em;
+
+  margin: 15px auto;
+
+}
+
+.info img  {
+
+  margin-right: 10px;
+
+}
+
+.footer-link {
+
+  margin: 10px 40px;
+
+}
+
+.socials-div {
+
+  display: inline-block;
+
+  padding: 2px;
+
+  width: 7%;
+
+  margin-bottom: 70px;
+
+}
+
+small {
+
+  display: block;
+
+  font-size: 5px;
+
+}
+
+.socials:active {
+
+  background-color: hsl(322, 100%, 66%);
+
+}
+
+.call-to-action-one:active {
+
+  color: #63666A;
+
+}
+
+.call-to-action-two:active {
+
+  background-color: #FFB6C1;
+
+}
+
+@media (max-width: 500px) {
+
+ .flex-container {
+
+   display: block;
+
+ }
+
+ footer {
+
+   height: auto;
+
+   padding: 150px 10px 30px 10px;
+
+ }
+
+ .call-to-action-one {
+
+   width: 100px;
+
+   height: 30px;
+
+   border-radius: 25px;
+
+   font-size: 9px;
+
+   margin-left: 160px;
+
+ }
+
+ h2 {
+
+   text-align: center;
+
+   font-size: 24px;
+
+   margin-top: 2px;
+
+ }
+
+ p {
+
+   text-align: center;
+
+   margin-bottom: 32px;
+
+ }
+
+ 
+
+ #mockups-image {
+
+   margin-top: 40px;
+
+ }
+
+ h3, h4 {
+
+   text-align: center;
+
+ }
+
+ .main-section {
+
+   margin: 35px 2px auto 2px;
+
+ }
+
+ .section-image {
+
+   width: 100%;
+
+ }
+
+ #grow-together-section, #flowing-conversation-section, #your-users-section {
+
+   padding: 50px;
+
+   position: relative;
+
+ }
+
+ #grow-together-image, #your-users-image {
+
+   position: relative;
+
+   bottom: 200px;
+
+ }
+
+ #grow-together-text, #your-users-text {
+
+   position: relative;
+
+   top: 250px;
+
+ }
+
+ #start-section {
+
+   width: 85%;
+
+   margin-top: -34px;
+
+ }
+
+ #footer-logo {
+
+   width: 40%;
+
+ }
+
+ .info, .footer-link {
+
+   margin-left: 4px;
+
+   padding-bottom: 7px;
+
+ }
+
+ #socials-group {
+
+   text-align: center;
+
+ }
+
+ .socials-div {
+
+   margin-bottom: 15px;
+
+   margin-top: 40px;
+
+ }
+
+ small {
+
+   font-size: 8px;
+
+ }
+
+}
 
