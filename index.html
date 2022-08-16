@@ -12,6 +12,10 @@
 
   <link rel="stylesheet" href="styles.css">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -36,13 +40,13 @@
 
       
 
-      <button class="try-link" type="submit">Try It Free</button>
+      <a href=""><button class="call-to-action-one" type="submit">Try It Free</button></a>
 
     </div>
 
     
 
-    <div class="flex-container" id="header-comtainer-two">
+    <div class="flex-container" id="header-container-two">
 
       <div>
 
@@ -56,7 +60,7 @@
 
         
 
-        <button class="start-link" type="submit">Get Started For Free</button>
+        <a href=""><button class="call-to-action-two" type="submit">Get Started For Free</button></a>
 
       </div>
 
@@ -64,91 +68,141 @@
 
       <div>
 
-        <img id="illustration-image" src="/images/illustration-mockups.svg" alt="mockups illustranion">
+        <img id="mockups-image" src="/images/illustration-mockups.svg" alt="mockups illustranion">
 
       </div>
 
     </div>
 
-    </header>
+  </header>
 
-  <section class="flex-container">
+  
 
-    <h4>Grow Together</h4>
+  <section class="main-section">
 
-    <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+    <section class="flex-container" id="grow-together-section">
 
-    Think of the insightful conversations you miss out on with a feedback form.</p> 
+      <div id="grow-together-text">
+
+        <h4>Grow Together</h4>
 
     
 
-    <img src="/images/illustration-grow-together.svg" alt="grow together section illustranion">
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+
+        Think of the insightful conversations you miss out on with a feedback form.</p> 
+
+      </div>
+
+      
+
+      <img class="section-image" id="grow-together-image" src="/images/illustration-grow-together.svg" alt="grow together section illustranion">
+
+    </section>
+
+  
+
+    <section class="flex-container" id="flowing-conversation-section">
+
+      <img class="section-image" src="/images/illustration-flowing-conversation.svg" alt="flowing conversations section illustration">
+
+      
+
+      <div>
+
+        <h4>Flowing Conversations</h4>
+
+    
+
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+
+        have just-in-time loading for a more natural flow.</p>
+
+      </div>
+
+    </section>
+
+  
+
+    <section class="flex-container" id="your-users-section">
+
+      <div id="your-users-text">
+
+        <h4>Your Users</h4>
+
+    
+
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
+
+        This means, once signed in to your app, your users can start chatting immediately.</p>
+
+      </div>
+
+     
+
+      <img class="section-image" id="your-users-image" src="/images/illustration-your-users.svg" alt="your users section illustration"
+
+    </section>
+
+  
+
+    <section class="flex-container" id="start-section">
+
+      <h3>Ready To Build Your Community?</h3>
+
+  
+
+      <a href=""><button class="call-to-action-two" type="submit">Get Started For Free</button></a>
+
+    </section>
 
   </section>
 
-  <section class="flex-container">
-
-    <img src="/images/illustration-flowing-conversation.svg" alt="flowing conversations section illustration">
-
-    <h4>Flowing Conversations</h4>
-
-    <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-
-    have just-in-time loading for a more natural flow.</p>
-
-  </section>
-
-  <section class="flex-container">
-
-    <h4>Your Users</h4>
-
-    <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
-
-    This means, once signed in to your app, your users can start chatting immediately.</p>
-
-   
-
-    <img src="/images/illustration-your-users.svg" alt="your users section illustration"
-
-  </section>
-
-  <section class="flex-container">
-
-    <h3>Ready To Build Your Community?</h3>
-
-    <button class="start-link" type="submit">Get Started For Free</button>
-
-  </section>
+    
 
   <footer class="flex-container">
 
-    <div class="flex-container">
+    <div>
 
-      <img src="/images/logo.svg" alt="huddle logo">
+      <img id="footer-logo" src="/images/logo.svg" alt="huddle logo">
 
-      <img src="/images/icon-location.svg" alt="location icon">
+      <div class="info" flex-container>
 
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        <img src="/images/icon-location.svg" alt="location icon">
 
-      incididunt ut labore et dolore magna aliqua</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 
-      <img src="/images/icon-phone.svg" alt="phone icon">
+        incididunt ut labore et dolore magna aliqua</span>
 
-      <span>+1-543-123-4567</span>
+      </div>
 
-      <img src="/images/icon-email.svg" alt="email icon">
+      <div class="info">
 
-      <span>example@huddle.com</span>
+        <img src="/images/icon-phone.svg" alt="phone icon">
+
+        <span>+1-543-123-4567</span>
+
+      </div>
+
+      
+
+      <div class="info">
+
+        <img src="/images/icon-email.svg" alt="email icon">
+
+        <span>example@huddle.com</span>
+
+      </div>
 
     </div>
 
     <div>
 
-      <div>About Us</div>
+      <a href=""><div class="footer-link">About Us</div></a>
 
-      <div>What We Do</div>
+      <a href=""><div class="footer-link">What We Do</div></a>
 
-      <div>FAQ</div>
+      <a href=""><div class="footer-link">FAQ</div></a>
 
     </div>
 
@@ -156,21 +210,33 @@
 
     <div>
 
-      <div>Career</div>
+      <a href=""><div class="footer-link">Career</div></a>
 
-      <div>Blog</div>
+      <a href=""><div class="footer-link">Blog</div></a>
 
-      <div>Contact Us</div>
+      <a href=""><div class="footer-link">Contact Us</div></a>
 
     </div>
 
-    <div>
+    <div id="socials-group">
 
-      <img src="/images/facebook-brands.svg" alt="facebook icon">
+      <div class="socials-div">
 
-      <img src="/images/twitter-brands.svg" alt="twitter icon">
+        <a href=""><img class="socials" src="/images/facebook-brands.svg" alt="facebook icon"></a>
 
-      <img src="/images/instagram-brands.svg" alt="instagram icon">
+      </div>
+
+      <div class="socials-div">
+
+        <a href=""><img class="socials" src="/images/twitter-brands.svg" alt="twitter icon"></a>
+
+      </div>
+
+      <div class="socials-div">
+
+        <a href=""><img class="socials" src="/images/instagram-brands.svg" alt="instagram icon"></a>
+
+      </div>
 
     <small>&copy; Copyright 2018 Huddle. All rights reserved.</small>
 
@@ -181,5 +247,3 @@
 </body>
 
 </html>
-
-
